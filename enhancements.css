@@ -611,6 +611,8 @@ body::after {
 }
 
 .soft-skill-grid .skill-card {
+  grid-column: auto !important;
+  grid-row: auto !important;
   width: 100%;
   height: 100%;
   min-height: 170px;
