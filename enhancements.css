@@ -622,3 +622,22 @@ body::after {
   content: none !important;
   display: none !important;
 }
+
+.project-detail-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin: 12px 0 14px;
+}
+
+.project-detail-gallery img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+@media (max-width: 620px) {
+  .project-detail-gallery { grid-template-columns: 1fr; }
+}
