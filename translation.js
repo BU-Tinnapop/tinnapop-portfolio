@@ -1,4 +1,11 @@
 const translations=new Map([
+['ทักษะ','Skills'],
+['ทักษะด้านเทคนิค','Technical skills'],
+['ทักษะการทำงาน','Workplace skills'],
+['วิเคราะห์ปัญหา แบ่งงานเป็นขั้นตอน และทดลองหาแนวทางที่เหมาะสม','Analyze problems, break work into steps, and explore suitable solutions.'],
+['ทำงานร่วมกับผู้อื่น รับฟังความคิดเห็น และรับผิดชอบงานที่ได้รับมอบหมาย','Collaborate with others, listen to feedback, and take responsibility for assigned work.'],
+['พร้อมเรียนรู้เครื่องมือใหม่และพัฒนาทักษะจากการลงมือทำ','Ready to learn new tools and develop skills through hands-on practice.'],
+['ใส่ใจความถูกต้องของงาน ตรวจสอบผลลัพธ์ และจัดทำข้อมูลให้เป็นระเบียบ','Pay attention to accuracy, review results, and keep information organized.'],
 ['ผมเป็นนักศึกษาสาขา','I am a student in'],
 ['มหาวิทยาลัยกรุงเทพ','Bangkok University'],
 ['จาก','at'],
