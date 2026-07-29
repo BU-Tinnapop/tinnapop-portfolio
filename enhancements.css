@@ -536,3 +536,14 @@ body::after {
   }
   .cursor-glow { display: none; }
 }
+.card-body > .text-btn + .text-btn {
+  float: right;
+  text-align: right;
+  white-space: nowrap;
+}
+
+@media (max-width: 380px) {
+  .card-body > .text-btn {
+    font-size: 13px;
+  }
+}
