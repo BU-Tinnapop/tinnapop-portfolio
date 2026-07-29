@@ -547,3 +547,59 @@ body::after {
     font-size: 13px;
   }
 }
+.contact-section {
+  padding-block: 96px;
+}
+
+.opportunity-card {
+  width: min(900px, 100%);
+  margin-inline: auto;
+  padding: clamp(44px, 7vw, 76px) clamp(24px, 7vw, 72px);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
+  box-shadow: 0 30px 80px #0003;
+  text-align: center;
+}
+
+.opportunity-card h2 {
+  margin: 14px 0 16px;
+  font-size: clamp(36px, 5vw, 58px);
+  line-height: 1.1;
+}
+
+.opportunity-copy {
+  max-width: 720px;
+  margin: 0 auto;
+  color: var(--muted);
+  font-size: 17px;
+}
+
+.opportunity-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 32px 0 22px;
+}
+
+.opportunity-actions .btn {
+  min-width: 150px;
+}
+
+.opportunity-email {
+  color: var(--muted);
+  font: 12px "JetBrains Mono", monospace;
+  letter-spacing: .04em;
+}
+
+.opportunity-email:hover {
+  color: var(--accent);
+}
+
+@media (max-width: 480px) {
+  .contact-section { padding-block: 72px; }
+  .opportunity-actions { display: grid; }
+  .opportunity-actions .btn { width: 100%; }
+  .opportunity-email { font-size: 11px; }
+}

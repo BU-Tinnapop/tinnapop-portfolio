@@ -1,4 +1,8 @@
 const translations=new Map([
+['มาร่วมงานกัน','Let’s Work Together'],
+['ตอนนี้ผมกำลังมองหาโอกาสฝึกงานและตำแหน่งระดับเริ่มต้นในสาย Full-Stack Development, Data และ Cyber Security พร้อมพูดคุยเกี่ยวกับโอกาสที่ผมสามารถมีส่วนร่วมกับทีมของคุณได้','I am currently looking for internship and entry-level opportunities in Full-Stack Development, Data, and Cyber Security. I would be happy to discuss how I can contribute to your team.'],
+['ส่งอีเมล','Send Me an Email'],
+['ดู GitHub','View GitHub'],
 ['FULL-STACK DEVELOPMENT · กำลังพัฒนา','FULL-STACK DEVELOPMENT · IN DEVELOPMENT'],
 ['AI Call Center Analysis — กำลังพัฒนา','AI Call Center Analysis — In Development'],
 ['ระบบวิเคราะห์บทสนทนา Call Center เพื่อสรุปประเด็นสำคัญและช่วยติดตามคุณภาพการให้บริการ','A call center conversation analysis system that summarizes key points and helps monitor service quality.'],

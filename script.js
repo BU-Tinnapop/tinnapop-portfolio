@@ -29,7 +29,6 @@ document.querySelectorAll('.project-open').forEach(btn=>btn.addEventListener('cl
 const certModal=document.querySelector('#cert-modal'),certFrame=document.querySelector('#cert-frame'),certDownload=document.querySelector('#cert-download');document.querySelectorAll('.cert').forEach(cert=>cert.addEventListener('click',()=>{document.querySelector('#cert-title').textContent=cert.dataset.cert;document.querySelector('#cert-issuer').textContent=cert.dataset.issuer;certFrame.src=cert.dataset.pdf;certDownload.href=cert.dataset.pdf;certModal.showModal()}));
 document.querySelectorAll('.modal-close').forEach(btn=>btn.addEventListener('click',()=>{const dialog=btn.closest('dialog');dialog.close();if(dialog===certModal)certFrame.src=''}));document.querySelectorAll('dialog').forEach(dialog=>dialog.addEventListener('click',event=>{if(event.target===dialog){dialog.close();if(dialog===certModal)certFrame.src=''}}));
 
-document.querySelector('#contact-form').addEventListener('submit',event=>{event.preventDefault();const data=new FormData(event.currentTarget),to='you@example.com',subject=encodeURIComponent(data.get('subject')),body=encodeURIComponent(`ชื่อ: ${data.get('name')}\nอีเมล: ${data.get('email')}\n\n${data.get('message')}`);document.querySelector('.form-status').textContent='กำลังเปิดโปรแกรมอีเมล...';location.href=`mailto:${to}?subject=${subject}&body=${body}`});
 document.querySelector('#year').textContent=new Date().getFullYear();onScroll();
 
 // ลูกเล่นเสริม: แสงตามเมาส์, navbar เมื่อเลื่อน และมิติของการ์ด
