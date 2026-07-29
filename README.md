@@ -16,7 +16,7 @@
 
 ค้นหาคำต่อไปนี้ในทุกไฟล์ แล้วแทนด้วยข้อมูลจริง:
 
-- `YOUR NAME` — ชื่อ-นามสกุล
+- `Tinnapop Okkijawat` — ชื่อ-นามสกุล
 - `YOUR MAJOR` — สาขาวิชา
 - `YOUR UNIVERSITY` — มหาวิทยาลัย
 - `YOUR_USERNAME` — username ของ GitHub/LinkedIn
