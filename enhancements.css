@@ -597,6 +597,13 @@ body::after {
   color: var(--accent);
 }
 
+.contact-methods {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px 24px;
+}
+
 @media (max-width: 480px) {
   .contact-section { padding-block: 72px; }
   .opportunity-actions { display: grid; }

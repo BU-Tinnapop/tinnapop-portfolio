@@ -1,4 +1,5 @@
 const translations=new Map([
+['โทร: 081-634-3556','Phone: 081-634-3556'],
 ['ดู Source Code บน GitHub ↗','View Source Code on GitHub ↗'],
 ['ดาวน์โหลด Source Code ↗','Download Source Code ↗'],
 ['ระบบต้นแบบตรวจวัดความเร็วด้วยเซนเซอร์ Ultrasonic สองตัว พร้อมแสดงผลและแจ้งเตือนตามระดับความเร็ว','A prototype speed detection system using two ultrasonic sensors, with a display and alerts based on speed levels.'],
