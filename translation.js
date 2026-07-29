@@ -1,4 +1,5 @@
 const translations=new Map([
+['ไม่สามารถเผยแพร่รายงานฉบับเต็มได้ เนื่องจากมีข้อมูลระบบ รหัสผ่าน หลักฐานการทดสอบ และข้อมูลของสมาชิกในทีมที่เป็นความลับ','The full report cannot be published because it contains confidential system information, passwords, testing evidence, and team member information.'],
 ['ไทย · อังกฤษ','Thai · English'],
 ['ภาษาแม่ · ฟังพอเข้าใจและสื่อสารเบื้องต้นได้','Native · Basic listening and communication skills'],
 ['NCSA e-Learning · 5 ธันวาคม 2025','NCSA e-Learning · December 5, 2025'],
