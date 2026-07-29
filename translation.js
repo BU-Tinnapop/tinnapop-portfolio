@@ -1,4 +1,6 @@
 const translations=new Map([
+['ไทย · อังกฤษ','Thai · English'],
+['ภาษาแม่ · ฟังพอเข้าใจและสื่อสารเบื้องต้นได้','Native · Basic listening and communication skills'],
 ['NCSA e-Learning · 5 ธันวาคม 2025','NCSA e-Learning · December 5, 2025'],
 ['เว็บไซต์ Portfolio หน้าเดียวที่ responsive และใช้งานได้โดยไม่ต้องมี framework พร้อม interaction ที่ครบถ้วน','A responsive single-page Portfolio built without a framework and featuring complete interactive functionality.'],
 ['ออกแบบ UI พัฒนา และทดสอบบนขนาดหน้าจอหลายแบบ','Designed the UI, developed the website, and tested it across multiple screen sizes.'],
