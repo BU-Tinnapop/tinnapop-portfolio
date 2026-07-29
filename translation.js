@@ -1,4 +1,11 @@
 const translations=new Map([
+['ผมเป็นนักศึกษาสาขา','I am a student in'],
+['มหาวิทยาลัยกรุงเทพ','Bangkok University'],
+['จาก','at'],
+['สนใจการพัฒนาเว็บ การวิเคราะห์ข้อมูล และความปลอดภัยของแอปพลิเคชัน ผมเรียนรู้จากการลงมือทำผ่านโครงงานในรายวิชา การแข่งขัน CTF และห้องทดลองด้าน Cyber Security เพื่อพัฒนาทักษะให้พร้อมสำหรับการทำงานจริง','interested in web development, data analysis, and application security. I learn by doing through coursework projects, CTF competitions, and Cyber Security labs as I prepare for real-world work.'],
+['มหาวิทยาลัยกรุงเทพ · 2023–ปัจจุบัน','Bangkok University · 2023–Present'],
+['พัฒนาเว็บ วิเคราะห์ข้อมูล และเรียนรู้การประเมินช่องโหว่อย่างมีจริยธรรม','Web development, data analysis, and ethical vulnerability assessment'],
+['ฝึกแก้ปัญหาผ่านโครงงาน การแข่งขัน และสภาพแวดล้อมจำลอง','Building problem-solving skills through projects, competitions, and simulated environments'],
 ['มาร่วมงานกัน','Let’s Work Together'],
 ['ตอนนี้ผมกำลังมองหาโอกาสฝึกงานและตำแหน่งระดับเริ่มต้นในสาย Full-Stack Development, Data และ Cyber Security พร้อมพูดคุยเกี่ยวกับโอกาสที่ผมสามารถมีส่วนร่วมกับทีมของคุณได้','I am currently looking for internship and entry-level opportunities in Full-Stack Development, Data, and Cyber Security. I would be happy to discuss how I can contribute to your team.'],
 ['ส่งอีเมล','Send Me an Email'],
