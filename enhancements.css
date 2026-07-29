@@ -645,6 +645,10 @@ body::after {
   border-radius: 10px;
 }
 
+.project-visual > span {
+  display: none !important;
+}
+
 @media (max-width: 620px) {
   .project-detail-gallery { grid-template-columns: 1fr; }
 }
