@@ -1,4 +1,5 @@
 const translations=new Map([
+['ดู Source Code บน GitHub ↗','View Source Code on GitHub ↗'],
 ['ดาวน์โหลด Source Code ↗','Download Source Code ↗'],
 ['ระบบต้นแบบตรวจวัดความเร็วด้วยเซนเซอร์ Ultrasonic สองตัว พร้อมแสดงผลและแจ้งเตือนตามระดับความเร็ว','A prototype speed detection system using two ultrasonic sensors, with a display and alerts based on speed levels.'],
 ['ระบบต้นแบบตรวจวัดความเร็วของวัตถุด้วย Ultrasonic Sensor สองตัว โดยคำนวณความเร็วจากระยะทางและเวลาที่ตรวจจับได้ แสดงผลบนจอ LCD พร้อมไฟและเสียงแจ้งเตือนตามระดับความเร็ว','A prototype that measures object speed with two ultrasonic sensors, calculates speed from distance and detection time, and provides LCD, light, and sound alerts.'],
